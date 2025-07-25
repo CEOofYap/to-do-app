@@ -5,8 +5,6 @@ export default function Index() {
   return (
     <View className= "flex-1 justify-center items-center bg-light-200">
         <Text className="text-5xl text-dark-200 font-bold">Welcome!</Text>
-        <Link href= "/onboarding" className="text-dark-200">Onboarding</Link>
-        <Link href= "/stuff/Avengers" className="text-dark-200">Avengers</Link>
     </View>
   );
 }
